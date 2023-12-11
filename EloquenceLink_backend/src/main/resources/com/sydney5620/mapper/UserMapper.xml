@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sydney5620.mapper.UserMapper">
+
+    <!--    <update id="updateContent">-->
+    <!--        UPDATE ai-->
+    <!--        SET content = #{content}-->
+    <!--        WHERE userId = #{userId}-->
+    <!--    </update>-->
+    <!--    <select id="getAllAIAssistance">-->
+    <!--        select * from ai-->
+    <!--    </select>-->
+
+</mapper>

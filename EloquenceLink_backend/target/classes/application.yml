@@ -1,0 +1,19 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///ai_assistance_db?characterEncoding=UTF-8&serverTimezone=Australia/Sydney
+    username: root
+    password:
+
+  main:
+    banner-mode: off
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.sydney5620.pojo
+  configuration:
+    map-underscore-to-camel-case: true

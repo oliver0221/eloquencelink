@@ -1,0 +1,6 @@
+.unstyledButton {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    line-height: 50px; 
+  }
